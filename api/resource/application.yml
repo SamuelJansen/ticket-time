@@ -1,0 +1,16 @@
+print-status: False
+# flask-specific-port: flask run --host=${api.server.host} --port=${api.server.port}
+
+api:
+    name: TicketTime
+    extension: yml
+    dependency:
+        update: False
+        list:
+            web: []
+    git:
+        force-upgrade-command: pip install --upgrade --force python_framework
+    list: []
+
+python:
+    version: 3.9
