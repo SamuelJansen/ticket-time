@@ -6,6 +6,8 @@ __pycache__/
 local-config.yml
 *.db
 *.png
+*.jpeg
+*.jpg
 *.mp3
 *.wav
 *-swagger.json
